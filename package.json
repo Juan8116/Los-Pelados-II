@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "soquetic": "^1.4.2"
-  }
+  },
+  "name": "los-pelados-ii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan8116/Los-Pelados-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juan8116/Los-Pelados-II/issues"
+  },
+  "homepage": "https://github.com/Juan8116/Los-Pelados-II#readme",
+  "description": ""
 }
