@@ -15,7 +15,7 @@ function enviarPedido(producto, sbores, nombre) {
     let Pedido = {producto: producto, sabores: sabores, nombre: nombre};
     pedidos.push(Pedido);
     let pedidosJSON = JSON.stringify(pedidos, null, 2)
-    fs.writeFileSync("data/pedidos.json", pedidoJSON);
+    fs.writeFileSync("data/pedidos.json", pedidosJSON);
     return {ok: true};
 }
 subscribeGETEvent("sabores", enviarSabores);
