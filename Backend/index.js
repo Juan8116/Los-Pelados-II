@@ -8,7 +8,7 @@ function enviarProductos() {
     const productos = JSON.parse(fs.readFyleSync("data/productos.json", "utf-8"));
     return productos;
 }
-function enviarPedido(producto, sbores, nombre) {
+function enviarPedido(producto, sabores, nombre) {
     let pedidos = JSON.parse(fs.readFileSync("data/pedidos.json", "utf-8"));
 
     if (!Array.isArray(pedidos)) pedidos = [];
