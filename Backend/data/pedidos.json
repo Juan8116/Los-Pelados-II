@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "producto": {
+      "producto": "vasito",
+      "sabores": [
+        "Flan",
+        "Dulce de Leche Granizado"
+      ],
+      "nombre": "Juan"
+    }
+  }
+]
